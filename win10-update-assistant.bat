@@ -1,21 +1,21 @@
 @echo off
-title WIN10¸üÐÂÖúÊÖ - Lovingly Made By [ÑîÔª] :-D
+title WIN10 update assistant - Lovingly Made By [æ¨å…ƒ] :-D
 mode con cols=71 lines=14
 color 5f
 
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù              ¡î¡ï Windows10ÏµÍ³×Ô¶¯¸üÐÂ¹ÜÀí¹¤¾ß ¡ï¡î             ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                     ÇëÏÈÍË³ö360µÈ°²È«¹Ü¼Ò£¡                      ¡ù
-echo ¡ù             ÇëÈ·ÈÏÓÒ¼üÑ¡Ôñ"ÒÔ¹ÜÀíÔ±Éí·ÝÔËÐÐ"´Ë½Å±¾£¡             ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                           ×÷Õß¡¼ÑîÔª¡½                           ¡ù
-echo ¡ù  °ïÖúÓë·´À¡¡¼https://www.cnblogs.com/iyangyuan/p/10555073.html¡½ ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                           °´ÈÎÒâ¼ü¼ÌÐø                           ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»
+echo â€» â˜†â˜… Windows 10 automatic update management tool â˜…â˜†
+echo â€» 
+echo â€» Please disable and exit all antivirus and security software
+echo â€» Please right click and select "Run as administrator" this script!ï¼
+echo â€»
+echo â€» Author ã€–Yang Yuanã€—
+echo â€» Help and feedbackã€–https://www.cnblogs.com/iyangyuan/p/10555073.htmlã€—
+echo â€»
+echo â€» Press any key to continue
+echo â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 pause > nul
 
 set wuaueng=C:\Windows\System32\wuaueng.dll
@@ -24,17 +24,17 @@ set wuaueng=C:\Windows\System32\wuaueng.dll
 cls
 echo.
 echo.
-echo --[1]--ÆÁ±ÎWindows10ÏµÍ³¸üÐÂ
-echo --[2]--»Ö¸´Windows10ÏµÍ³¸üÐÂ
-echo --[3]--ÍË³ö³ÌÐò
+echo --[1]--Disable Windows 10 system updates
+echo --[2]--Restore Windows 10 system updates
+echo --[3]--Exit program
 echo.
 echo.
 echo.
-echo --×¢Òâ--ÆÁ±Î³É¹¦ºóÇë²»ÒªÉ¾³ý±¾³ÌÐò£¡·ñÔòÎÞ·¨»Ö¸´£¡£¡£¡ x_x
+echo --Note -- please do not delete this program after the task is successful, otherwise it cannot be restoredï¼ï¼ï¼ x_x
 echo.
 echo.
 echo.
-choice /c 123 /n /m "ÇëÑ¡Ôñ¡¾1-3¡¿£º"
+choice /c 123 /n /m "Please selectã€1-3ã€‘ï¼š"
 
 echo %errorlevel%
 if %errorlevel% == 1 goto disable
@@ -51,15 +51,15 @@ break>%wuaueng%
 cls
 echo.
 echo.
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù    ³É¹¦ÆÁ±ÎWindows10ÏµÍ³¸üÐÂ£¡ÂèÂèÔÙÒ²²»ÓÃµ£ÐÄµçÄÔ×Ô¶¯ÖØÆôÀ²~    ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù      ¡¼ÔÙ´ÎÖ£ÖØÌáÐÑ¡½¡¾£¡Çë²»ÒªÉ¾³ý±¾³ÌÐò£¬·ñÔòÎÞ·¨»Ö¸´£¡¡¿      ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                         °´ÈÎÒâ¼üÍË³ö³ÌÐò                         ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»
+echo â€» Successfully blocked Windows 10 system updates! Mom no longer has to worry about the computer automatically restarting~
+echo â€»
+echo â€»ã€–Resolutely remindedã€—ã€ï¼Please do not delete this program, otherwise it will not be able to restoreï¼ã€‘
+echo â€»
+echo â€» Press any key to exit the program
+echo â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 echo.
 echo.
 pause > nul
@@ -76,13 +76,13 @@ cls
 echo.
 echo.
 echo.
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù         ³É¹¦»Ö¸´Windows10ÏµÍ³¸üÐÂ£¡¸Ï¿ìÈ¥Éý¼¶ÄãµÄÏµÍ³°É~         ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                         °´ÈÎÒâ¼üÍË³ö³ÌÐò                         ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€»
+echo â€» Successfully restored Windows 10 system updates! Hurry up and upgrade your system~
+echo â€»
+echo â€» Press any key to exit the program
+echo â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 echo.
 echo.
 echo.
@@ -94,15 +94,15 @@ cls
 echo.
 echo.
 echo.
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                          ¡î¡ï ¾¯¸æ ¡ï¡î                          ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù        ³ÌÐò¼ì²âµ½Äú´ÓÎ´ÆÁ±Î¹ýWindows10ÏµÍ³¸üÐÂ£¬ÎÞÐè»Ö¸´£¡       ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù                         °´ÈÎÒâ¼üÍË³ö³ÌÐò                         ¡ù
-echo ¡ù                                                                  ¡ù
-echo ¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù¡ù
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
+echo â€» 
+echo â€» â˜†â˜… Warning â˜…â˜†
+echo â€»
+echo â€» The program has detected that you have never blocked Windows 10 system updates, no need to restore!ï¼
+echo â€»
+echo â€» Press any key to exit the program
+echo â€»
+echo â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»â€»
 echo.
 echo.
 pause > nul
